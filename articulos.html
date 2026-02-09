@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artículos y Publicaciones - Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        .articles-container {
+            max-width: 900px;
+            margin: 6rem auto;
+            padding: 2rem;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        .article-item {
+            background: #2a2a2a;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            border-left: 4px solid var(--accent-color);
+        }
+
+        .article-item h2 {
+            margin-bottom: 0.5rem;
+            font-size: 1.8rem;
+        }
+
+        .article-meta {
+            color: #888;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .article-btn {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.6rem 1.2rem;
+            background-color: var(--accent-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 600;
+            transition: opacity 0.3s;
+        }
+
+        .article-btn:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">K-ry</div>
+        <ul class="nav-links">
+            <li><a href="index.html#about">Inicio</a></li>
+            <li><a href="index.html#projects">Proyectos</a></li>
+        </ul>
+    </nav>
+
+    <main class="articles-container">
+        <a href="index.html#projects" class="back-link">&larr; Volver a Proyectos</a>
+
+        <h1>Artículos y Publicaciones</h1>
+        <p style="margin-bottom: 3rem; color: #888;">Aquí encontrarás el detalle de las investigaciones y artículos
+            relacionados con este proyecto.</p>
+
+        <!-- Artículo 1 -->
+        <div class="article-item">
+            <h2>Ceboruco hazard map: part I-definition of hazard scenarios based on the eruptive history</h2>
+            <div class="article-meta">Publicado en: Journal of Applied Volcanology| 2019</div>
+            <a href="https://link.springer.com/article/10.1186/s13617-019-0088-2" class="article-btn">Ver Artículo</a>
+        </div>
+
+        <!-- Artículo 2 -->
+        <div class="article-item">
+            <h2>Ceboruco hazard map: part II—modeling volcanic phenomena and construction of the general hazard map</h2>
+            <div class="article-meta">Publicado en: Natural Hazards| 2019</div>
+            <a href="https://link.springer.com/article/10.1007/s11069-019-03577-5" class="article-btn">Ver Artículo</a>
+        </div>
+
+        <!-- Artículo 3 -->
+        <div class="article-item">
+            <h2>Monogenetic volcanoes with initial phreatomagmatic phases in the Ceboruco graben, western Mexico: The
+                cases of Potrerillo I, Potrerillo II, and San Juanito</h2>
+            <div class="article-meta">Publicado en: Journal of Volcanology and Geothermal Research | 2021</div>
+            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377027321000135" class="article-btn">Ver
+                Artículo</a>
+        </div>
+
+        <!-- Artículo 4 -->
+        <div class="article-item">
+            <h2>Probabilistic volcanic hazard assessment at an active but under-monitored volcano: Ceboruco, Mexico</h2>
+            <div class="article-meta">Publicado en: Journal of Applied Volcanology | 2022</div>
+            <a href="https://link.springer.com/article/10.1186/s13617-022-00119-w" class="article-btn">Ver Artículo</a>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Karime González-Zuccolotto. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>

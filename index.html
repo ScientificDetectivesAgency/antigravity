@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-ry</title>
+    <!-- Vinculamos nuestro archivo de estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Importamos una fuente bonita de Google Fonts (Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- BARRA DE NAVEGACIÓN SUPERIOR (STICKY) -->
+    <nav class="navbar">
+        <div class="logo">K-ry</div>
+        <ul class="nav-links">
+            <li><a href="#about">Acerca de</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+            <li class="lang-selector"><span>ES</span> | <a href="en/index.html">EN</a></li>
+        </ul>
+    </nav>
+
+    <!-- SECCIÓN PRINCIPAL (HERO) -->
+    <header id="about" class="hero">
+        <div class="bio-container">
+            <h1>Hola, soy Karime González-Zuccolotto.</h1>
+            <p>Me dedico al diseño y desarrollo de sistemas de información geográfica y análisis geoespacial orientados
+                a la investigación aplicada. Concibo las herramientas analíticas no como un fin en sí mismas, sino como
+                dispositivos de investigación que permiten formular preguntas, explorar patrones y generar conocimiento
+                sobre fenómenos complejos.
+                Mi interés principal es el riesgo, entendido de manera amplia e integradora, incluyendo tanto peligros
+                naturales como procesos antrópicos, entre ellos los conflictos armados. A través del uso de SIG, datos
+                espaciales e imágenes satelitales, busco comprender cómo estos peligros se manifiestan en el territorio
+                y cuáles son sus efectos sociales, ambientales y espaciales.
+                En particular, me interesa el monitoreo de entornos de guerra mediante observación de la Tierra, como
+                una vía para documentar procesos difíciles de observar directamente y para aportar evidencia que ayude a
+                interpretar y comunicar sus impactos en la sociedad.
+                Me gusta mucho lo que hago y me importa que los datos se usen con cuidado y propósito, especialmente
+                cuando pueden ayudar a entender mejor problemas que afectan a la sociedad.</p>
+        </div>
+        <div class="profile-container">
+            <!-- Imagen circular (usamos un placeholder por ahora) -->
+            <img src="foto.jpg" alt="Foto de Perfil" class="profile-pic">
+        </div>
+    </header>
+
+    <!-- SECCIÓN DE PROYECTOS -->
+    <section id="projects" class="projects-section">
+        <h2>Proyectos de investigación</h2>
+        <div class="projects-grid">
+            <!-- Proyecto 1 -->
+            <a href="articulos.html" class="project-link">
+                <article class="project-card">
+                    <img src="proyecto.png" alt="Imagen del Proyecto 1" class="card-image">
+                    <h3>Mapa de peligros del volcán Ceboruco</h3>
+                    <p>Mapa de peligros del volcán Ceboruco (Nayarit), integración de simulaciones de flujos de lava y
+                        diseño del Sistema de Información Geográfica.</p>
+                </article>
+            </a>
+            <!-- Proyecto 2 -->
+            <a href="proyecto2.html" class="project-link">
+                <article class="project-card">
+                    <img src="proyecto2.png" alt="Campo Volcánico Monogenético de los Tuxtlas" class="card-image">
+                    <h3>Campo Volcánico Monogenético de los Tuxtlas</h3>
+                    <p>Estudio de la morfología y distribución espacial de volcanes monogenéticos en Veracruz.</p>
+                </article>
+            </a>
+            <!-- Proyecto 3 -->
+            <a href="articulos.html" class="project-link">
+                <article class="project-card">
+                    <div class="card-image" style="background-color: #10b981;"></div>
+                    <h3>Nombre del Proyecto 3</h3>
+                    <p>Descripción breve del proyecto.</p>
+                </article>
+            </a>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE PLATAFORMAS SIG -->
+    <section id="platforms" class="projects-section" style="padding-top: 0;">
+        <h2>Colaboraciones en plataformas de información geográfica</h2>
+        <div class="projects-grid">
+            <!-- Plataforma 1 -->
+            <a href="https://observatoriovivienda.cdmx.gob.mx/" class="project-link">
+                <article class="project-card">
+                    <img src="img1.png" alt="Observatorio Metropolitano de Vivienda" class="card-image">
+                    <h3>Observatorio Metropolitano de Vivienda</h3>
+                    <p>Apoyo en el diseño del Observatorio en colaboración con el IPDP de la CDMX y el grupo de
+                        investigación de CentroGeo</p>
+                </article>
+            </a>
+            <!-- Plataforma 2 -->
+            <a href="https://tablero311.cdmx.gob.mx/" class="project-link">
+                <article class="project-card">
+                    <img src="suac.png" alt="Sistemas Unificado de Atención Ciudadana LOCATEL 311" class="card-image">
+                    <h3>Sistemas Unificado de Atención Ciudadana LOCATEL 311</h3>
+                    <p>Apoyo en el diseño de la base de datos del sistema LOCATEL 311 en colaboración con la Agencia
+                        Digital de Información Pública (ADIP), CDMX.</p>
+                </article>
+            </a>
+            <!-- Plataforma 3 -->
+            <a href="#" class="project-link">
+                <article class="project-card">
+                    <div class="card-image" style="background-color: #cbd5e1;"></div>
+                    <h3>Atlas de Conflictos</h3>
+                    <p>Cartografía dinámica para el monitoreo de impactos territoriales en entornos complejos.</p>
+                </article>
+            </a>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE CONTACTO -->
+    <section id="contact" class="contact-section">
+        <h2>Contacto</h2>
+        <div class="contact-container">
+            <p style="margin-bottom: 2rem; color: #888;">¿Tienes algún proyecto en mente o te gustaría colaborar?
+                ¡Hablemos!</p>
+            <a href="mailto:karime.gonzalez@centrogeo.edu.mx" class="contact-email">karime.gonzalez@centrogeo.edu.mx</a>
+
+            <ul class="social-links">
+                <li><a href="#" target="_blank">LinkedIn</a></li>
+                <li><a href="#" target="_blank">GitHub</a></li>
+                <li><a href="#" target="_blank">Twitter</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>&copy; 2026 Karime González-Zuccolotto. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
